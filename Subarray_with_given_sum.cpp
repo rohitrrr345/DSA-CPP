@@ -23,7 +23,7 @@
         for(int i=0;i<n;i++){
             pre_sum += arr[i];
             
-            if(pre_sum == 0)
+            if(pre_sum == 0)''
                 return true;
             if(s.find(pre_sum)!=s.end())
                 return true;
