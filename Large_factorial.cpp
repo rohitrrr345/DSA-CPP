@@ -7,7 +7,6 @@ public:
             int result = (multiplier*nums[i])+carry;
     
             nums[i]   = result%10;
-    
             carry     = result/10;
         }
     
