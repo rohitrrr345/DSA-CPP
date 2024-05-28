@@ -21,4 +21,4 @@ public:
         return ans;
 
     }
-};
+};//this questions are same as the subset questions and none another
