@@ -19,6 +19,6 @@ class Solution{
            range=temp;
            ans++;
        }
-       return ans+1;
+       return ans+1;//renting
     }
 };
