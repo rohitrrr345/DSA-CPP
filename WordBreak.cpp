@@ -19,7 +19,7 @@ bool solve(int id,string &s){
 }
     bool wordBreak(string s, vector<string>& wordDict) {
          n=s.length();
-       for(string &word:wordDict){
+       for(string &word:wordDict){zzzzzzzzzzzz
         st.insert(word);
        }
       return solve(0,s);
