@@ -18,7 +18,7 @@ class Solution
         
             int i = 1;
             while (i < M) {
-                if (pattern[i] == pattern[len]) {
+                if (pattern[i] == pattern[len]) 
                     len++;
                     lps[i] = len;
                     i++;
