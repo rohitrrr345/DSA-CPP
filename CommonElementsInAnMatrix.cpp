@@ -11,7 +11,7 @@ vector<int> findCommonElements(vector<vector<int>> &mat)
     unordered_set<int>s;
     unordered_map<int,int>mp;
     
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++){ 
     	for(int j=0;j<m;j++){
     		s.insert(mat[i][j]);
     	}
