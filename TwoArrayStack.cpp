@@ -35,7 +35,7 @@ public:
     // Pop from stack 1 and return popped element.
     int pop1() {
 		if( top1 >= 0) {
-            int ans = arr[top1];
+            int ans = arr[top1];//There is an array that combines that match please recent stack measuring sentments 
             top1--;
             return ans;
         }

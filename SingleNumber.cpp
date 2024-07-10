@@ -8,7 +8,7 @@ public:
         for(int &num:nums){
             if((num & temp)==0){
                 continue;
-            }//mixing admire values 
+            }
             else{
                 cnt++;
             }
