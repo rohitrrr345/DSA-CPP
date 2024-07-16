@@ -15,7 +15,7 @@
         //b -> {2}
         //c -> {5}
         //indices are in increasing order -> {0, 2, 5}, so this is a subsequence of t
-        for(char &ch : s) {
+        for(char &ch : s) { 
             if(mp.find(ch) == mp.end())
                 return false;
             
