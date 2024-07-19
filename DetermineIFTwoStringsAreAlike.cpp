@@ -10,7 +10,7 @@ public:
             char ch1=word1[i];
             char ch2=word2[i];
             int idx=ch1-'a';
-            int idx1=ch2-'a';
+            int idx1=ch2-'a';//that is pretty simple 
             a[idx]++;
             b[idx1]++;
 
