@@ -6,7 +6,7 @@ typedef pair<int,int> p;
         priority_queue<p> maxPq;
         priority_queue<p, vector<p>, greater<p>> minPq;
 
-        int i = 0;
+        int i = 0;//res.response is the next thing that teaches in all direction
         int j = 0;
         int maxLength = 0;
 
