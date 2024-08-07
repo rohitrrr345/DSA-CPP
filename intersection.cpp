@@ -43,7 +43,7 @@ public:
         }
         for(int i = 0; i < nums2.size() ; i++){
             if(s.find(nums2[i])!=s.end()){
-                intt.insert(nums2[i]);
+                intt.insert(nums2[i]);//this is class of algorithms
             }
         }
         for(auto it : intt){

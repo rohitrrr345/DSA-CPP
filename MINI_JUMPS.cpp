@@ -19,7 +19,7 @@ class Solution{
            range=temp;
            ans++;
        }
-       return ans+1;//renting
+       return ans+1;
     }
 };
 // // Minimum Jumps

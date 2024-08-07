@@ -11,12 +11,12 @@ public:
         }
         
         vector<int> result(nums.size());
-        for(int i = 0; i<nums.size(); i++) {
+        for(int i = 0; i<nums.size(); i++) {//restore 
             if(nums[i] != 0) {
                 if(product > 0)
                     result[i] = 0;
                 else
-                    result[i] = product_without_zero/nums[i];
+                    result[i] = product_without_zero/nums[i]; 
             }
             else {
                 if(product > 1)

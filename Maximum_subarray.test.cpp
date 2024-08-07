@@ -1,6 +1,6 @@
 //   int maxi = INT_MIN; // maximum sum
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {//generally
         int sum = 0;
         for (int j = i; j < n; j++) {
             // current subarray = arr[i.....j]
@@ -14,7 +14,7 @@
         }
         }
     }
-    return false;
+    return false; 
 
 //     return maxi;
 // class Solution{
