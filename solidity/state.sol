@@ -7,15 +7,18 @@ contract state
     uint public num;
 
     // age=34;//cannot be doen
-    //can be initialized by this uint public age=10;
-    // constructor () 
-    //  {
-    //     age=12;
+        
+    constructor () 
+     {
+        age=12;
         
 
-    // }
-    // function setAge() public {
-    //     age=10;
-    // }
+    }
+    function setAge() public {
+        age=10;
+    }
+    function getAge() view returns ]{
+        return
+    }
 
 }

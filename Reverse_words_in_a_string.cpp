@@ -50,3 +50,31 @@ public:
 // Output: "world hello"
 // Explanation: Your reversed string should not contain leading or trailing spaces.
 // Example 3:
+class Solution {
+public:
+    string reverseWords(string s) {
+        int n=s.size();
+        vector<string>ans;
+        bool check=false;
+        string res="";
+        for(int i=0;i<n;i++){
+            if(s[i]==' '){
+                if(check==true && i!=n-1){
+                    ans.push_back(" ");
+                    check=false;
+                }
+                continue;
+            }
+            else{
+                ans.push_back(s[i]);
+                check=true;
+
+            }
+        }
+        reverse(ans.begin(),ans.end());
+        for(int i=0;i<ans.size();i++){
+              res+=ans[i];
+        }
+        return res;
+    }
+};
