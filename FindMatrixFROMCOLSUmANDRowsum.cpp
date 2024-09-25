@@ -15,7 +15,7 @@ public:
             if(rowSum[i] == 0) i++;
             if(colSum[j] == 0) j++;
             
-        }
+        }h
         return vec;
     }
 };

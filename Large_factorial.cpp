@@ -18,7 +18,7 @@ public:
     }
     
     vector<int> factorial(int N){
-        vector<int> nums(10000, 0);
+        vector<int> nums(10000, 0);   
         nums[0] = 1;
         int size = 1;
         int fact = N;
