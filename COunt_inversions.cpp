@@ -1,6 +1,6 @@
 
 #include <bits/stdc++.h>
-using namespace std;// intersecting all the
+using namespace std;
 
 int merge(vector<int> &arr, int low, int mid, int high) {
     vector<int> temp; // temporary array

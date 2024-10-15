@@ -1,4 +1,3 @@
-/*-------- Bit-N-Byte ----------*/
  
 #include<bits/stdc++.h>
 using namespace std;
